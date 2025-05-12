@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive JS Playground</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Welcome to Your JavaScript Playground 🎉</h1>
+        </header>
+
+        <main>
+            <!-- Event Handling Section -->
+            <section id="event-handling">
+                <h2>Event Handling</h2>
+                <button id="click-button">Click Me!</button>
+                <div id="hover-div">Hover over me!</div>
+                <input type="text" id="keypress-input"
+                    placeholder="Type something..." />
+                <div id="double-click-area" class="area">Double-click or hold
+                    me!</div>
+            </section>
+
+            <!-- Interactive Elements Section -->
+            <section id="interactive-elements">
+                <h2>Interactive Elements</h2>
+                <button id="color-change-btn">Change Text Color</button>
+                <div id="image-gallery">
+  <img
+    src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&h=350&w=500"
+    alt="Cute Dog" />
+  <img
+    src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&h=350&w=500"
+    alt="Puppy Sitting" />
+  <img
+    src="https://images.pexels.com/photos/46505/pexels-photo-46505.jpeg?auto=compress&cs=tinysrgb&h=350&w=500"
+    alt="White dog with tongue out" />
+</div>
+
+
+                <div id="accordion">
+                    <button class="tab-button">Tab 1</button>
+                    <div class="tab-content">
+                        <p>Tell me why you wouldnt choose us </p>
+                    </div>
+                    <button class="tab-button">Tab 2</button>
+                    <div class="tab-content">
+                        <p>only the best </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Form Validation Section -->
+            <section id="form-validation">
+                <h2>Form Validation</h2>
+                <form id="validation-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required />
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required
+                        minlength="8" />
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="validation-feedback"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 myInteractive Playground</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

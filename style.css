@@ -1,0 +1,158 @@
+/* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Section Headings */
+h2 {
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+/* Main Layout */
+main section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px 5px 20px 0;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* Hover Box */
+#hover-div {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px dashed #aaa;
+  border-radius: 6px;
+  background-color: #eef;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#hover-div:hover {
+  background-color: #dbeaff;
+}
+
+/* Double Click Area */
+.area {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Input Field */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Image Gallery */
+#image-gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#image-gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Accordion Tabs */
+#accordion {
+  margin-top: 15px;
+}
+
+.tab-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: #e2e2e2;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Show tab content (can be toggled in JS) */
+.tab-content.active {
+  display: block;
+}
+
+/* Form Feedback */
+#validation-feedback {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
